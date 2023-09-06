@@ -1,0 +1,17 @@
+package com.umterrick.weatherbot.enums;
+
+public enum BotState {
+    START,
+    HELP,
+    ASK_MAIN_CITY,
+    SHOW_MAIN_MENU,
+    SET_ADDITIONAL_CITY,
+    SHOW_ADDITIONAL_CITIES,
+    TAKE_WEATHER,
+    TAKE_FORECAST,
+    SHOW_WEATHER,
+    CHANGE_MAIN_CITY,
+    SAVE_MAIN_CITY,
+    CHANGE_ADDITIONAL_CITY,
+    SCHEDULE_MESSAGE,
+}

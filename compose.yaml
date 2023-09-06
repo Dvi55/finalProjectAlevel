@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  postgres:
+    container_name: 'bot-postgres'
+    image: 'postgres:latest'
+    environment:
+      POSTGRES_DB: botdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./my-postgres-data:/var/lib/postgresql/data
+
